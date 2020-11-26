@@ -1,0 +1,25 @@
+#day3 task
+
+#Exercise1
+ipl1 = {"csk":"chennai","mi":"mumbai","dc":"delhi","kkr":"kolkata"}
+ipl2 = {"srh":"hyderabad","rcb":"bangalore","rr":"rajasthan","kx1p":"punjab"}
+ipl3 = {**ipl1,**ipl2}
+print(ipl3)
+
+#Exercise2
+del ipl1['csk']
+print(ipl1)
+
+#Exercise3
+keys = ['yellow','red','blue']
+values = ['csk','rcb','mi']
+print(dict(zip(keys, values)))
+
+#Exercise4
+ipl4 = {"csk","mi","rcb","dc"}
+print(len(ipl4))
+
+#Exercise5
+ipl5 = {"csk","mi","rcb","kkr"}
+ipl6 = {"csk","rcb","srh"}
+print(ipl5-ipl6)
